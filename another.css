@@ -26,6 +26,8 @@ ul{
 }
 body{
    background-color: aliceblue;
+   margin: 0 auto;
+   
 }
 .herotext{
  text-align: center;
