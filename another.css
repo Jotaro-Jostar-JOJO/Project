@@ -1,0 +1,183 @@
+
+.navbar{
+   background-color: darkgray;
+   padding: 13px;
+   border-style: outset;
+   height: 40px;
+}
+.navbar .container{
+   display: flex;
+  justify-content: space-between;
+}
+ul{
+   list-style-type: none;
+}
+.navbar a {
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+}
+.navbar a:hover{
+   color: rgb(167, 92, 0);
+}
+.navbar ul {
+   display: flex;
+}
+body{
+   background-color: aliceblue;
+}
+.herotext{
+ text-align: center;
+ display: flex;
+ align-items: center;
+
+}
+.myshi{
+   float: left;
+   width: 300px;
+   margin: 200px;
+   margin-right: 17px;
+   margin-top: 120px;
+   margin-bottom: 120px;
+}
+.herotext{
+   position: relative;
+   left: 170px;
+}
+.myshi{
+  width: 300px;
+  height: auto;
+}
+.type{
+   position: absolute;
+   width: 300px;
+   height: auto;
+   left: 184px;
+   top: 104px;
+}
+.second{
+   background-color: rgb(53, 24, 24);
+   text-align: center;
+   align-items: center;
+   padding: 130px;
+   padding-top: 120px;
+   padding-bottom: 160px;
+}
+.thatshi{
+   float: left;
+   margin: 0 200px;
+   height: 190px;
+   margin-right: 20px;
+   margin-top: 40px;
+}
+.second p {
+   color: aliceblue;
+   text-align: justify;
+   margin-right: 200px;
+   margin-top: 70px;
+}
+.second h2{
+   color: aliceblue;
+   text-decoration: underline;
+}
+.beach{
+   background-image: url(bg-img.png);
+   width: 1241px;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.beach p{
+   color: aliceblue;
+   font-size: x-large;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+   width: 38ch
+}
+.quote{
+   position: relative;
+ bottom: 70px;
+ left: -30px;
+ font-weight: bold;
+ font-size: 150px;
+ transform: rotate(180deg);
+ display: inline-block
+}
+.quote{
+   text-align: center;
+   align-items: center;
+   color: rgb(247, 249, 251);
+}
+.quarts{
+   position: relative;
+   top: 100px;
+   font-weight: bold;
+   font-size: 150px;
+   color: rgb(255, 255, 255);
+}
+.last{
+   width: 1241px;
+   height: 500px;
+   background-color: rgb(252, 252, 252);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.name{
+   height: 10vh;
+}
+.dash{
+   width: 300px;
+   padding: 10px;
+   border: none;
+   border-bottom: 2px solid;
+}
+.eguy{
+   width: 300px;
+   padding: 10px;
+   border: none;
+   border-bottom: 2px solid;
+}
+.last label{
+  position: absolute;
+}
+.dom{
+   justify-content: center;
+   position: relative;
+   bottom: 80px;
+   text-transform: capitalize;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(49, 4, 4);
+}
+.submit{
+   position: relative;
+   top: 100px;
+   
+}
+.last input[type=submit]{
+   background-color: brown;
+   width: 70px;
+}
+.boom{
+   background-color: rgb(59, 5, 5);
+   height: 50px;
+   width: 1241px;
+}
+.boom p{
+   color: aliceblue;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 20px;
+   font-size: x-small;
+   font-style: italic;
+}
